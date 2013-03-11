@@ -20,7 +20,7 @@ How to make it work:
 (function(){
   s=document.createElement('SCRIPT');
   s.type='text/javascript';
-  s.src='https://raw.github.com/irwinwilliams/GuardianCaptioner/master/captioner.js?';
+  s.src='https://raw.github.com/irwinwilliams/GuardianCaptioner/master/captioner.min.js';
   document.getElementsByTagName('head')[0].appendChild(s);
 })();
 
@@ -28,7 +28,7 @@ so that your browser's address bar reads:
 javascript:(function(){
   s=document.createElement('SCRIPT');
   s.type='text/javascript';
-  s.src='https://raw.github.com/irwinwilliams/GuardianCaptioner/master/captioner.js?';
+  s.src='https://raw.github.com/irwinwilliams/GuardianCaptioner/master/captioner.min.js?';
   document.getElementsByTagName('head')[0].appendChild(s);
 })();
 
