@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="GuardianCaptioner : Saw this tweet on @GuardianTT's feed: &quot;Check out today’s Talk of Trinidad photoblog. http://ht.ly/iCwsP . Click any photo to see the caption.&quot; and I thought better could be done." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>GuardianCaptioner</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/irwinwilliams/GuardianCaptioner">View on GitHub</a>
+
+          <h1 id="project_title">GuardianCaptioner</h1>
+          <h2 id="project_tagline">Saw this tweet on @GuardianTT's feed: &quot;Check out today’s Talk of Trinidad photoblog. http://ht.ly/iCwsP . Click any photo to see the caption.&quot; and I thought better could be done.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/irwinwilliams/GuardianCaptioner/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/irwinwilliams/GuardianCaptioner/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>GuardianCaptioner</h1>
+
+<p>so, if you make a bookmarklet using the captioner.js contents, it will display captions.</p>
+
+<p>You should see a caption for every photo you hover over in the gallery.</p>
+
+<p>How to make it work (technical way):</p>
+
+<ol>
+<li>Go to a Trinidad Guardian photoblog, like, <a href="http://www.guardian.co.tt/gallery/talk-trinidad-09-march-2013?utm_source=iStarr&amp;utm_medium=github&amp;utm_campaign=innovation">http://www.guardian.co.tt/gallery/talk-trinidad-09-march-2013?utm_source=iStarr&amp;utm_medium=github&amp;utm_campaign=innovation</a>
+</li>
+<li>Clear the address bar</li>
+<li>Type javascript:</li>
+<li>Copy/paste this script command
+(function(){
+s=document.createElement('SCRIPT');
+s.type='text/javascript';
+s.src='<a href="https://raw.github.com/irwinwilliams/GuardianCaptioner/master/captioner.min.js">https://raw.github.com/irwinwilliams/GuardianCaptioner/master/captioner.min.js</a>';
+document.getElementsByTagName('head')[0].appendChild(s);
+})();</li>
+</ol><p>so that your browser's address bar reads:
+javascript:(function(){
+  s=document.createElement('SCRIPT');
+  s.type='text/javascript';
+  s.src='<a href="https://raw.github.com/irwinwilliams/GuardianCaptioner/master/captioner.min.js?">https://raw.github.com/irwinwilliams/GuardianCaptioner/master/captioner.min.js?</a>';
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();</p>
+
+<p>You should see a caption for every photo you hover over in the gallery.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">GuardianCaptioner maintained by <a href="https://github.com/irwinwilliams">irwinwilliams</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-37764136-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
